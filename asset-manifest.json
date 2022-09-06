@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/applher/static/css/main.76fe517f.css",
-    "main.js": "/applher/static/js/main.c560dc45.js",
+    "main.js": "/applher/static/js/main.1adb4277.js",
     "static/media/presentation.png": "/applher/static/media/presentation.2d949a93e3bcab6b6622.png",
     "static/media/background.png": "/applher/static/media/background.9a61e80969ee5be8ce5a.png",
     "static/media/woman.jpg": "/applher/static/media/woman.64b75dc9504a098e72bc.jpg",
@@ -10,10 +10,10 @@
     "static/media/Ellipse 21.png": "/applher/static/media/Ellipse 21.002eccb60181b3e5aa2e.png",
     "index.html": "/applher/index.html",
     "main.76fe517f.css.map": "/applher/static/css/main.76fe517f.css.map",
-    "main.c560dc45.js.map": "/applher/static/js/main.c560dc45.js.map"
+    "main.1adb4277.js.map": "/applher/static/js/main.1adb4277.js.map"
   },
   "entrypoints": [
     "static/css/main.76fe517f.css",
-    "static/js/main.c560dc45.js"
+    "static/js/main.1adb4277.js"
   ]
 }
