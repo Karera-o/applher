@@ -6,12 +6,12 @@ import Create from './ui/pages/signinPage/Create';
 import Signinl from './ui/pages/signinPage/Signinl';
 import HomePage from './ui/pages/homePage/homePage';
 // import SigninPage from './ui/pages/signinPage/signinPage';
-import {BrowserRouter  , Routes ,Route} from 'react-router-dom';
+import {HashRouter as Router  , Routes ,Route} from 'react-router-dom';
 import Container from './ui/pages/container/container.jsx'
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
+    <Router>
       <Routes>
     
 
@@ -25,7 +25,7 @@ function App() {
      <Route element={<Container/>} path="/dash" />
     
     </Routes>
-    </BrowserRouter>
+    </Router>
     </div>
   );
 }
