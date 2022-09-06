@@ -1,0 +1,112 @@
+#signin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 450px;
+    padding: 20px 50px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 40px rgb(225, 231, 225);
+}
+#signin h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: var(--font);
+    color: var(--primaryColor);
+}
+#signin div{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    width: 100%;
+}
+#signin label{
+    font-size: 15px;
+    margin: 5px 0;
+    font-family: var(--font);
+    font-size: 15px;
+}
+#signin input,#signin textarea{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--borderColor);
+    outline: none;
+}
+#signin .button{
+    width: 150px;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-family: var(--font);
+    background-color: var(--primaryColor);
+    background-image: linear-gradient(to right, hsl(162, 50%, 50%),hsl(162, 60%, 58%),hsl(162, 73%, 72%));
+}
+select {
+
+    /* styling */
+    background-color: white;
+    border: thin solid rgb(233, 233, 243);
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+  
+    /* reset */
+  
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  
+  /* arrows */
+  
+  select.classic {
+    background-image:
+      linear-gradient(45deg, transparent 50%, rgb(236, 236, 245) 50%),
+      linear-gradient(135deg, rgb(236, 236, 245) 50%, transparent 50%),
+      linear-gradient(to right,hsl(162, 50%, 57%), hsl(162, 50%, 57%));
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+  }
+  
+  select.classic:focus {
+    background-image:
+      linear-gradient(45deg, white 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, white 50%),
+      linear-gradient(to right,  hsl(162, 50%, 57%),  hsl(162, 50%, 57%));
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+    border-color: grey;
+    outline: 0;
+  }
+  .for{
+    color:  hsl(162, 50%, 57%);
+    font-size: 12px;
+    text-align: center;
+  }
+  .for:hover{
+ color:hsl(162, 58%, 57%) ;
+  }

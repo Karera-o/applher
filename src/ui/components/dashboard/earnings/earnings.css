@@ -1,0 +1,38 @@
+#earningsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--primaryColor);
+    height: 30vh;
+    width: 300px;
+    color: white;
+    border-radius: 10px;
+    font-family: var(--font);
+    /* margin: 40px; */
+    padding-bottom: 20px;
+    box-shadow: 0px 10px 10px rgb(188, 190, 190);
+    box-shadow: 0px 10px 10px rgb(198, 204, 203);
+}
+
+#earningsContainer span{
+    font-size: 40px;
+    /* font-weight: 900; */
+    /* background-color: aqua; */
+
+}
+#earningsContainer #para1{
+    /* font-size: ; */
+    font-weight: bold;
+}
+#earningsContainer #para2{
+    font-weight: bolder;
+    font-size: 24px;
+}
+#earningsContainer #para3{
+    padding: 3px 5px;
+    border-radius: 10px;
+    background-color: rgb(79, 155, 138);
+}
+
+

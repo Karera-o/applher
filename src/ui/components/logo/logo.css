@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+#logoContainer{
+    
+    display: flex;
+    align-items: center;
+    width: 100px;
+    /* background-color: aqua; */
+    padding: 0 10px;
+    /* margin: auto auto; */
+    /* line-height: 50px; */
+    justify-content: space-between;
+}
+#logoContainer img{
+    width: 30px;
+}
+#logoContainer span{
+    font-size: 30px;
+    /* font-family: cursive monospace; */
+    font-family:'Lobster', cursive;
+    color: hsl(162, 50%, 50%);
+}
