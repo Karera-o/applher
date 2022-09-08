@@ -101,7 +101,7 @@ const Card = (props) => {
 
 const Project = ()=>{
 
-  const projectsArray = [card1,card2,card3,card4,card5]
+  const projectsArray = [card1,card2,card3,card4,card5,card3,card2,card1,card5,card4,card3,card4,card5,card3,card3,card4,card5,card3,card2,card1,card5,card4]
   const projects =[]
   projectsArray.forEach((project)=>{
     projects.push(<Card icon={project.icon} color={project.color} business={project.business} conPerson={project.conPerson} proLead={project.proLead} progress={project.progress} deadline={project.deadline}/>)

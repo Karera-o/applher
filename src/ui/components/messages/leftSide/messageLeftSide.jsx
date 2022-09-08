@@ -26,6 +26,13 @@ function  MessageLeftSide() {
             <Contact />
             <Contact />
             <Contact />
+            <Contact />
+            <Contact />
+            <Contact />
+            <Contact />
+            <Contact />
+            <Contact />
+            <Contact />
         </div>
         
     </div>

@@ -13,6 +13,7 @@ export class RightSideFooter extends Component{
     render(){
         return(
             <div id="rightSideFooter">
+                <div>
                 <ul id="rightSideFooter_ul">
                     
                     <li id="rightSideFooter_ulInput">
@@ -22,6 +23,7 @@ export class RightSideFooter extends Component{
                     <li><ImAttachment size="1.2em" /></li>
                     <li><span id="icon">sent <IoIosSend size="1.2em" color="white"/></span></li>
                 </ul>
+                </div>
             </div>
         );
     }

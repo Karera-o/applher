@@ -44,6 +44,7 @@
     font-size: 15px;
     border-radius: inherit;
     font-family: inherit;
+    
     background-color: var(--bgColor);
 }
 
@@ -56,6 +57,7 @@
     width: 90%;
     padding: 5px 10px;
     font-family: var(--font);
+    color: #17221e;
     background-color: white;
     /* background-color: rgb(255, 244, 240);
     border: 1px solid #f8d7ba; */
