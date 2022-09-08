@@ -1,0 +1,45 @@
+#rightSideMain{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    padding: 50px;
+    background-image: url("whatsupBg.jpg");
+    background-position: center;
+    /* background-image: url("whatsupBg.png"); */
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    background-color: #202c33;
+    /* opacity: .1; */
+    
+}
+@media screen and (max-width:900px) {
+
+    #rightSideMain{
+        background-size: 100%;
+    }
+    
+}
+#rightSideMain p{
+    display: inline-block;
+    flex-basis: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+@media screen and (max-width:900px) {
+    #rightSideMain{
+        padding: 10px;
+    }
+    
+}
+#rightText{
+    align-self: flex-end;
+    background-color: #176b5b;
+}
+#leftText{
+    align-self: flex-start;
+    background-color: #202c33;
+}
+
+

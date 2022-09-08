@@ -1,0 +1,24 @@
+@media screen and (max-width:900px) {
+    
+    #message_leftSide{
+      width: 40%;
+    }  
+      #message_mainSide{
+        flex-basis: 60%;
+        /* width: 50%; */
+        height: 67vh;
+        /* background-color: #111b21; */
+        
+      }
+      
+}
+@media screen and (max-width:600px) {
+  #message_leftSide{
+    width: 100%;
+  }
+  #message_mainSide{
+    /* display: none; */
+    /* background-color: antiquewhite; */
+  }
+ 
+}

@@ -10,6 +10,7 @@ import { useState } from "react";
 import Dashboard from "../investorDashboard/dashboard";
 // import Project from "../../components/overview/project/project";
 import OverviewPage from "../overviewPage/overviewPage";
+import MessagePage from '../messagePage/messagePage'
 
 
 function Container(props) {
@@ -36,7 +37,7 @@ function Container(props) {
     titlee = "Notifications"
   }
   else if(index===3){
-    component = <Dashboard/>
+    component = <MessagePage/>
     // setTitle("Calendar")
     titlee = "Messages"
   }

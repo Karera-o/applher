@@ -1,0 +1,72 @@
+.messageContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    /* background-color: #111b21; */
+    background-color: rgb(236, 240, 239);
+  }
+  
+ #message_navBar{
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px 10px ;
+  /* background-color: aqua; */
+ }
+ #span1{
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #e7f3f1;
+ }
+ #message_navBar div{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: var(--font);
+  color: var(--primaryColor);
+ }
+#message_holderr{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  /* background-color: aquamarine; */
+}
+  #message_leftSide{
+    width: 30%;
+    height: 100vh;
+    overflow: hidden;
+    /* border-right: 1px solid rgb(207, 218, 219); */
+  }
+  #message_mainSide{
+    flex-basis: 70%;
+    /* width: 50%; */
+    height: 66vh;
+    /* background-color: #111b21; */
+  }
+  
+  .messageContainer::-webkit-scrollbar-track
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(119, 85, 85, 0.3);
+    background-color: rgb(87, 100, 100);
+    height: 10px;
+  }
+  .messageContainer::-webkit-scrollbar
+  {
+      margin-top: 10px;
+      width: 0px;
+      height: 10px;
+      background-color: #e6cccc;
+  }
+  .messageContainer::-webkit-scrollbar-thumb
+  {
+    background-color: rgba(193, 197, 204, 0.692);
+  }

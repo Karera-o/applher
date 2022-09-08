@@ -1,13 +1,13 @@
 
 import React from 'react';
 import './App.css';
-import Create from './ui/pages/signinPage/Create';
+import Create from '../src/ui/pages/signinPage/Create';
 // import Reset from './ui/pages/signinPage/Reset';
-import Signinl from './ui/pages/signinPage/Signinl';
-import HomePage from './ui/pages/homePage/homePage';
+import Signinl from '../src/ui/pages/signinPage/Signinl';
+import HomePage from '../src/ui/pages/homePage/homePage';
 // import SigninPage from './ui/pages/signinPage/signinPage';
 import {HashRouter as Router  , Routes ,Route} from 'react-router-dom';
-import Container from './ui/pages/container/container.jsx'
+import Container from '../src/ui/pages/container/container.jsx'
 function App() {
   return (
     <div className="App">

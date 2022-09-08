@@ -24,11 +24,11 @@ function LeftSide(props) {
       <div id="leftMain">
         <ul>
           {props.getIndex(index)}
-          <li onClick={()=>setIndex(1)}><MdDashboard/> Dashboard</li>
-          <li onClick={()=>setIndex(2)}><IoMdNotifications/>Notifications</li>
-          <li onClick={()=>setIndex(3)}><FcCalendar/>Messages</li>
-          <li onClick={()=>setIndex(4)}><FcViewDetails/>Overview</li>
-          <li onClick={()=>setIndex(5)}><IoMdSettings/>Settings</li>
+          <li onClick={()=>setIndex(1)}><MdDashboard/> <span>Dashboard</span> </li>
+          <li onClick={()=>setIndex(2)}><IoMdNotifications/><span>Notifications</span></li>
+          <li onClick={()=>setIndex(3)}><FcCalendar/><span>Messages</span></li>
+          <li onClick={()=>setIndex(4)}><FcViewDetails/><span>Overview</span></li>
+          <li onClick={()=>setIndex(5)}><IoMdSettings/><span>Settings</span></li>
         </ul>
         <div id="logout">
           <BiLogOut/>
