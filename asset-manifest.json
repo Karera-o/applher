@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/applher/static/css/main.479f0ddc.css",
-    "main.js": "/applher/static/js/main.acdbcd4d.js",
+    "main.css": "/applher/static/css/main.c419c61b.css",
+    "main.js": "/applher/static/js/main.c4c32d9b.js",
     "static/media/presentation.png": "/applher/static/media/presentation.2d949a93e3bcab6b6622.png",
     "static/media/background.png": "/applher/static/media/background.9a61e80969ee5be8ce5a.png",
     "static/media/woman.jpg": "/applher/static/media/woman.64b75dc9504a098e72bc.jpg",
@@ -10,11 +10,11 @@
     "static/media/Ellipse 21.png": "/applher/static/media/Ellipse 21.002eccb60181b3e5aa2e.png",
     "static/media/man.jpeg": "/applher/static/media/man.00ad99ab0d72e5f9f639.jpeg",
     "index.html": "/applher/index.html",
-    "main.479f0ddc.css.map": "/applher/static/css/main.479f0ddc.css.map",
-    "main.acdbcd4d.js.map": "/applher/static/js/main.acdbcd4d.js.map"
+    "main.c419c61b.css.map": "/applher/static/css/main.c419c61b.css.map",
+    "main.c4c32d9b.js.map": "/applher/static/js/main.c4c32d9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.479f0ddc.css",
-    "static/js/main.acdbcd4d.js"
+    "static/css/main.c419c61b.css",
+    "static/js/main.c4c32d9b.js"
   ]
 }
