@@ -19,8 +19,8 @@ const Dashboard = () => {
                 
             </div>
             <div className="dash_bottomcards">
-              <div>
-                {/* <LineCharts /> */}
+              <div className='charts'>
+                <LineCharts />
               </div>
               <div>
               <h1 className="h1">Recent Transactions</h1>

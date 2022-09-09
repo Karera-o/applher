@@ -4,18 +4,18 @@
   --primaryColor: hsl(162, 66%, 66%);
   --secondaryColor:rgb(236, 248, 247);
   /* --primaryColor: */
-  --bgColor: #ffff;
+  --bgColor: var(--primaryColor)f;
   --borderColor: rgb(218, 225, 230);
   --title_color: rgb(68, 100, 96);
 
-  /* --primaryColor: #ffff; */
-  --bgColor: #ffff;
+  /* --primaryColor: var(--primaryColor)f; */
+  --bgColor: var(--primaryColor)f;
   --font:'Nunito', sans-serif; 
   
 
 }
 
-/* *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -30,7 +30,7 @@ html,body{
   height: 100%;
 }
 
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

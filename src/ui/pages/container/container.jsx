@@ -11,6 +11,7 @@ import Dashboard from "../investorDashboard/dashboard";
 // import Project from "../../components/overview/project/project";
 import OverviewPage from "../overviewPage/overviewPage";
 import MessagePage from '../messagePage/messagePage'
+import Notifications from "../../components/notifications/notifications";
 
 
 function Container(props) {
@@ -32,7 +33,7 @@ function Container(props) {
     titlee = "Dashboard"
   }
   else if(index===2){
-    component = <Dashboard/>
+    component = <Notifications/>
     // setTitle("Notifications")
     titlee = "Notifications"
   }

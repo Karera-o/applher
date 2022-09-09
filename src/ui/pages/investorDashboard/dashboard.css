@@ -1,3 +1,22 @@
 .dash_bottomcards{
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 3%;
+    /* justify-content: space-between; */
+    /* background-color: aqua; */
+}
+
+.charts{
+    width: 50%;
+    /* height: 300px; */
+    background-color: white;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:900px) {
+    .charts{
+        width: 70%;
+        background-color: white;
+    }
 }

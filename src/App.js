@@ -9,9 +9,14 @@ import HomePage from '../src/ui/pages/homePage/homePage';
 import {HashRouter as Router  , Routes ,Route} from 'react-router-dom';
 import Container from '../src/ui/pages/container/container.jsx'
 import LineCharts from './ui/components/dashboard/lineCharts/lineCharts';
+import SplashScreen from './ui/pages/splashScreen/splashScreen';
+
+
+
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      
     <Router>
       <Routes>
 
@@ -22,8 +27,8 @@ function App() {
      <Route element={<Container/>} path="/dash" />
     
     </Routes>
-    </Router>
-    {/* <LineCharts /> */}
+    </Router> 
+    
     </div>
   );
 }

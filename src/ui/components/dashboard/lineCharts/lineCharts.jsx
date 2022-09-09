@@ -1,66 +1,59 @@
 import React from 'react'
 
-import {Line} from 'react-chartjs-2'
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
 
+import { Line } from 'react-chartjs-2';
+
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 function LineCharts() {
-  // return (
-  //   <div >lineCharts
-  //     <Bar 
-  //     type="bar"
-  //     height={100}
-  //     width={500}
-  //     data={{
-  //       labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange']
-  //     }}
-  //     />
-  //   </div>
-  // )
   const lineChartData = {
-    labels: ["October", "November", "December"],
+    labels: ["Jan", "Feb", "Mar", 'Apr', 'May','June','July'],
     datasets: [
       {
-        data: [8137119, 9431691, 10266674],
-        label: "Infected",
+        data: [10,20,30,20,50,60,50],
+        label: "Projects",
         borderColor: "#3333ff",
-        fill: true,
         lineTension: 0.5
       },
       {
-        data: [1216410, 1371390, 1477380],
-        label: "Deaths",
-        borderColor: "#ff3333",
-        backgroundColor: "rgba(255, 0, 0, 0.5)",
-        fill: true,
+        data: [1,15,10,60,40,32,70],
+        label: "Progress",
+        borderColor:'hsl(162, 66%, 66%)',
+        backgroundColor: "hsl(162, 66%, 90%)",
         lineTension: 0.5
       }
     ]
   };
 
   return (
-    <div>
-      hey
+    <div className="App">
+      
       <Line
-      type="line"
-      width={160}
-      height={60}
-      options={{
-        title: {
-          display: true,
-          text: "COVID-19 Cases of Last 6 Months",
-          fontSize: 20
-        },
-        legend: {
-          display: true, //Is the legend shown?
-          position: "top" //Position of the legend.
-        }
-      }}
+      
+      width={200}
+      height={100}
       data={lineChartData}
     />
-
     </div>
-   
-  );
+  )
 }
 
 export default LineCharts

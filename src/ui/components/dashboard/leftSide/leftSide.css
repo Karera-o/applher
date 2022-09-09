@@ -121,5 +121,17 @@
 #logout:hover{
     /* font-weight: bolder; */
     color: #4fa380;
-    transition: all .2s linear;
+    color: rgb(63, 8, 100);
+    /* transition: all .2s linear; */
 }
+
+#logout .span1{
+    color: #4fa380;
+
+}
+#logout .span1:hover{
+    font-weight: bold;
+    color: rgb(63, 8, 100);
+
+}
+
