@@ -22,7 +22,7 @@ function Hader() {
       <img src={feat2} alt=''/>
     </div>
     <div className='sb-text'>
-        <h2>Apploud Her</h2>
+//         <h2>Apploud Her</h2>
       
        </div>
     </div>
